@@ -58,7 +58,7 @@
 		  <div class="container">
 			<div class="content">
 				<div class="title">Studio D</div>
-				<div class="quote">A portfolio of inspiration</div>
+				<div class="quote">an inspiring portfolio</div>
 				<ul>
 				  <li><a href="">Emergent Practices</a></li>
 				  <li><a href="">Warped Photography</a></li>
