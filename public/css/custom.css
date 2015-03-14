@@ -80,20 +80,20 @@ a{
 	position: relative;
 	width: 100%;
 	height: 400px;
-	background: url('/images/GC.jpg') no-repeat center center;
+/*	background: url('/images/GC.jpg') no-repeat center center;*/
 	margin-bottom: 40px;
 }
 
 #tertiary .content #mugshot h1{
 
 }
-#mugshot #overlay #DP {
+#mugshot #DP {
 	height: 100%;
 	float: left;
 	width: 60%;
 }
 #DP h3 {
- color: #fff;
+
  text-align: left;
  padding: 0 !important;
  margin-bottom: 0;
@@ -107,11 +107,11 @@ a{
 	margin: 0 auto;
 }
 #DP p {
-	color: #fff;
+	
 	text-align: left;
 
 }
-#mugshot #overlay #profile-picture{
+#mugshot #profile-picture{
 	position: relative;
 	top: 40px;
     margin: 0 auto;
@@ -123,7 +123,7 @@ a{
 #skills h1{
 	text-align: left;
 	line-height: 1;
-	color: #fff;
+
 	padding: 20px 0 20px 0;
 }
 #skills{
@@ -133,7 +133,7 @@ a{
 
 #skills ul{
  list-style: square outside none;
- color: #f4f4f4;
+
 }
 #skills ul li {
 	display: block;

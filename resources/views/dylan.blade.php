@@ -154,7 +154,7 @@
 
 
 
-             	<div id="overlay">
+<!--              	<div id="overlay"> -->
              		<div id="DP">
              			
              		<div id="profile-picture"></div>
@@ -203,14 +203,14 @@
 		<section id="contact">
 			<div class="container">
 		  	<div class="content">
-			<h1>Contact</h1>
+			<h1>Get in touch</h1>
 
 			<form>
   <div class="form-group first">
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+   <input type="text" class="form-control" id="exampleInputName2" placeholder="First exampleInputName2">
   </div>
   <div class="form-group last">
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Last Name">
   </div>
   <textarea class="form-control" rows="3" placeholder="Message"></textarea>
 
