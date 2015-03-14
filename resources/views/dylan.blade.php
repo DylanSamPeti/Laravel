@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Laravel</title>
+		<title>Studio D</title>
 
 
 		<link href="{{ asset('/css/custom.css') }}" rel="stylesheet">
@@ -59,35 +59,25 @@
 			<div class="content">
 				<div class="title">Studio D</div>
 				<div class="quote">an inspiring portfolio</div>
-				<ul>
-				  <li><a href="">Emergent Practices</a></li>
-				  <li><a href="">Warped Photography</a></li>
+				<ul id="nav">
+				  <li><a href="">About</a></li>
+				  <li><a href="">Work</a></li>
+				  <li><a href="">Process</a></li>
+				  <li><a href="">Blog</a></li>
+				  <li><a href="">Contact</a></li>
 				</ul>
-				<a href="">GALLERY</a>
-
-				<br>
-				<br>
-				<button class="btn btn-primary">Visit Portfolio</button>
             </div>
          </div>
 		</main>
 
 		<section id="intermediate">
+			<div id="overlay"></div>
 			
 		  <div class="container">
 		  	<div class="content">
-				<div class="title">What I do</div>
-				<div class="quote">I'm glad you asked! I study Creative Technologies at AUT city campus in Auckland New 
-					Zealand. <br > A degree that teaches a new way of looking at technology. Feel free to check out some of my work below!
-                    <br>
-                    <br>
-                     As a secondary interest, I like to dabble in digital industry by <br> creating minimilistic, carefully crafted content for people. 
-                     <br>
-                     This includes: websites, online marketing and app ux. I'm a strong believer <br> in making your business reflect your online content.
-				<br>
-				<br>
-				<button class="btn btn-primary">Find out more</button>
-            </div>
+				<h1>Feathers</h1>
+
+			<button class="btn btn-primary">Learn more</button>
 	
 		</section>
 
@@ -95,21 +85,142 @@
 			
 		  <div class="container">
 		  	<div class="content">
-				<div class="title" id="development">The Folio</div>
+				<h1>Work</h1>
 
-				<br>
-				<br>
+				<ul>
+
+					<li>
+
+				       <article>
+
+				       	<h3>The Blue</h3>
+    
+				       </article>
+
+				    </li>
+
+				    <li>
+
+				       <article>
+
+				       	<h3>The Red</h3>
+    
+				       </article>
+
+				    </li>
+
+				    <li>
+
+				       <article>
+                        <div id="overlay"></div>
+				       	<h3>Writings</h3>
+     
+				       </article>
+
+				    </li>
+				</ul>
+
+				
             </div>
-		  	<div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-width="1200"
+		 <!--  	<div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-width="1200"
      data-height="400">
                 <img src="{{ asset('/images/img-one.jpg') }}">
                 <img src="{{ asset('/images/img-two.jpg') }}">
                 <img src="{{ asset('/images/img-three.jpg') }}">
                 <img src="{{ asset('/images/img-four.jpg') }}">
                 </div>
-
+ -->
 			
          </div>
+		</section>
+
+		<section id="tertiary">
+
+		  <div class="container">
+		  	<div class="content">
+
+             <h1>The Nutshell</h1>
+
+             <h4>"Knowledge is experience"</h4>
+             <br>
+             <br>
+             <h3>The digital insdustry is my forte. Form design, to extensive development work, I try to dabble in all
+             	<br>
+             	aspects accross the digital spectrum. Simply because I enjoy looking at the potential something has and
+             	<br> 
+             	how we can experiment with it using new and creative technologies. Just check out some of my work!
+             </h3>
+             <div id="mugshot">
+
+
+
+             	<div id="overlay">
+             		<div id="DP">
+             			
+             		<div id="profile-picture"></div>
+                 	
+                 	<div class="paragraph">
+             		<h3>Dylan Peti</h3>
+
+             		<p>
+           
+             			Dylan has created outstanding photography installations,
+             			developed and implemented branding  strategies for Remix 
+             			magazine.
+             			</p>
+             		</div>
+
+
+
+             		
+             		</div>
+             		<div id="skills">
+             		<h1>Skills</h1>
+             		<ul>
+             		<li>Market Analysis</li>
+                    <li>Marketing Strategy</li>
+                    <li>Brand Development</li>
+                    <li>Branding Structure/Guidelines</li>
+                    <li>Brand Artwork Creation</li>
+                    <li>Website Design and Development</li>
+                    <li>Website Search Engine Optimisation</li>
+                    <li>Web Analytics Setup</li>
+                    <li>Sales Funnel Iterations/Testing</li>
+             			
+             		</ul>
+             	</div>
+             </div>
+
+
+             </div>
+
+		  	</div>
+		  </div>
+
+
+		</section>
+
+		<section id="contact">
+			<div class="container">
+		  	<div class="content">
+			<h1>Contact</h1>
+
+			<form>
+  <div class="form-group first">
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group last">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+			
+
+
+		</div>
+	</div>
 		</section>
 		<footer>
 			<div class="container">
