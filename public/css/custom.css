@@ -23,7 +23,7 @@ a{
 	height: auto;
 	width: 100%;	
 	background: #f4f4f4;
-	padding-bottom: 40px;
+	padding-bottom: 80px;
 }
 #intermediate{ 
 	position: relative;
@@ -34,6 +34,9 @@ a{
 	width: 100%;	
 	background: url('/images/GC.jpg') no-repeat center center;
 	padding-bottom: 120px;
+}
+#tertiary{
+	padding-bottom: 80px;
 }
 
 #secondary .container .content, #tertiary .container .content{
