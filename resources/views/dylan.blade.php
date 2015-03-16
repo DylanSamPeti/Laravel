@@ -1,12 +1,16 @@
 <html>
 	<head>
-		<title>Studio D</title>
+		<title>Dylan Peti</title>
 
 
 		<link href="{{ asset('/css/custom.css') }}" rel="stylesheet">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="{{ asset('/js/navigation.js') }}"></script>
+
 		
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script> <!-- 16 KB -->
@@ -58,19 +62,21 @@
 		  <div class="container">
 			<div class="content">
 				<div class="title">Studio D</div>
-				<div class="quote">an inspiring portfolio</div>
+				<div class="quote">an inspiring portfolio by Dylan Peti</div>
 				<ul id="nav">
-				  <li><a href="">About</a></li>
-				  <li><a href="">Work</a></li>
-				  <li><a href="">Process</a></li>
-				  <li><a href="">Blog</a></li>
-				  <li><a href="">Contact</a></li>
+				  <li><a href="about" data-scrollto="about">About</a></li>
+				  <li><a href="work" data-scrollto="work">Work</a></li>
+	<!-- 			  <li><a href="">Process</a></li> -->
+				  <li><a href="http://dylanpeti.tumblr.com/" data-scrollto="no" target="_blank">Blog</a></li>
+				  <li><a href="" data-scrollto="contact">Contact</a></li>
 				</ul>
             </div>
          </div>
 		</main>
 
-		<section id="intermediate">
+
+	<!--  PRODUCT FEATURE -->
+	<!-- 	<section id="intermediate">
 			<div id="overlay"></div>
 			
 		  <div class="container">
@@ -79,21 +85,21 @@
 
 			<button class="btn btn-primary">Learn more</button>
 	
-		</section>
+		</section> -->
 
-		<section id="secondary">
+		<section id="secondary" class="work">
 			
 		  <div class="container">
 		  	<div class="content">
 				<h1>Work</h1>
 
-				<ul>
+				<!-- <ul>
 
 					<li>
 
-				       <article>
+				       <article class="first">
 
-				       	<h3>The Blue</h3>
+				       	<h3>BLUE</h3>
     
 				       </article>
 
@@ -119,7 +125,9 @@
 
 				    </li>
 				</ul>
+ -->
 
+  <h1>Coming Soon ...</h1>
 				
             </div>
 		 <!--  	<div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-width="1200"
@@ -134,21 +142,20 @@
          </div>
 		</section>
 
-		<section id="tertiary">
+		<section id="tertiary" class="about">
 
 		  <div class="container">
 		  	<div class="content">
 
-             <h1>The Nutshell</h1>
+             <h1>In a Nutshell</h1>
 
              <h4>"Knowledge is experience"</h4>
              <br>
              <br>
-             <h3>The digital insdustry is my forte. Form design, to extensive development work, I try to dabble in all
-             	<br>
-             	aspects accross the digital spectrum. Simply because I enjoy looking at the potential something has and
-             	<br> 
-             	how we can experiment with it using new and creative technologies. Just check out some of my work!
+             <h3>Dylan is an online digital specialist based In Auckland New Zealand. Dabbling in a wide range of projects
+             			from Web Development, Web design, digital branding, photography and content management, he is always looking for
+             			new and creative stratigies to help improve digital performance. 
+             	
              </h3>
              <div id="mugshot">
 
@@ -157,16 +164,19 @@
 <!--              	<div id="overlay"> -->
              		<div id="DP">
              			
-             		<div id="profile-picture"></div>
+             		<div id="profile-picture">Display Picture coming soon</div>
                  	
                  	<div class="paragraph">
              		<h3>Dylan Peti</h3>
 
-             		<p>
-           
-             			Dylan has created outstanding photography installations,
-             			developed and implemented branding  strategies for Remix 
-             			magazine.
+             		    <p class="address">Auckland, New Zealand  </p>
+             		
+             			<p class="phone">02108276106 </p>
+
+             			<p class="email">dylan@gomomentum.marketing</p>
+
+
+
              			</p>
              		</div>
 
@@ -200,14 +210,14 @@
 
 		</section>
 
-		<section id="contact">
+		<section id="contact" class="contact">
 			<div class="container">
 		  	<div class="content">
-			<h1>Get in touch</h1>
+			<h1>Get in Touch</h1>
 
 			<form>
   <div class="form-group first">
-   <input type="text" class="form-control" id="exampleInputName2" placeholder="First exampleInputName2">
+   <input type="text" class="form-control" id="exampleInputName2" placeholder="First Name">
   </div>
   <div class="form-group last">
     <input type="text" class="form-control" id="exampleInputName2" placeholder="Last Name">
@@ -226,7 +236,7 @@
 			<div class="container">
 			<ul>
 				<li><a href="">Back to Top</a></li>
-				<li><a href="">Contact</a></li>
+				<li><a href="">Work</a></li>
 				<li><a href="">Contact</a></li>
 			</ul>
 			</div>
