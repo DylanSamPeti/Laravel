@@ -154,7 +154,7 @@
              <br>
              <h3>Dylan is an online digital specialist based In Auckland New Zealand. Dabbling in a wide range of projects
              			from Web Development, Web design, digital branding, photography and content management, he is always looking for
-             			new and creative stratigies to help improve digital performance. 
+             			new and creative stratagies to help improve digital performance. 
              	
              </h3>
              <div id="mugshot">
