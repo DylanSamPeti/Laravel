@@ -152,8 +152,9 @@
              <h4>"Knowledge is experience"</h4>
              <br>
              <br>
-	             <h3>Merging accross areas of the digital spectrum, Dylan continues to develop and explore social engine marketing tecniques and photography. His
-	              	growth hacking techniques involve building tailored strategies, solidifying and building retention for each case. 
+	             <h3>Merging accross areas of the digital spectrum, Dylan continues to develop and explore <br> 
+	             	search engine marketing tecniques and photography. His growth hacking techniques involve <br> 
+	             	building tailored strategies, building and solidifying retention for each case. 
 
 	             </h3>
              <div id="mugshot">
