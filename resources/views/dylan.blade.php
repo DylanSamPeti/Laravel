@@ -61,7 +61,7 @@
 		<main id="main">
 		  <div class="container">
 			<div class="content">
-				<div class="title">Studio D</div>
+				<div class="title">Creative Dill</div>
 				<div class="quote">an inspiring portfolio by Dylan Peti</div>
 				<ul id="nav">
 				  <li><a href="about" data-scrollto="about">About</a></li>
@@ -147,16 +147,15 @@
 		  <div class="container">
 		  	<div class="content">
 
-             <h1>In a Nutshell</h1>
+             <h1>About Dylan</h1>
 
              <h4>"Knowledge is experience"</h4>
              <br>
              <br>
-             <h3>Dylan is an online digital specialist based In Auckland New Zealand. Dabbling in a wide range of projects
-             			from Web Development, Web design, digital branding, photography and content management, he is always looking for
-             			new and creative stratagies to help improve digital performance. 
-             	
-             </h3>
+	             <h3>Merging accross areas of the digital spectrum, Dylan continues to develop and explore social engine marketing tecniques and photography. His
+	              	growth hacking techniques involve building tailored strategies, solidifying and building retention for each case. 
+
+	             </h3>
              <div id="mugshot">
 
 
