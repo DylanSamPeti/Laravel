@@ -61,8 +61,8 @@
 		<main id="main">
 		  <div class="container">
 			<div class="content">
-				<div class="title">Creative Dill</div>
-				<div class="quote">an inspiring portfolio by Dylan Peti</div>
+				<div class="title">D &nbsp Y &nbsp L &nbsp A &nbsp N</div>
+				<div class="quote">an inspiring portfolio</div>
 				<ul id="nav">
 				  <li><a href="about" data-scrollto="about">About</a></li>
 				  <li><a href="work" data-scrollto="work">Work</a></li>
