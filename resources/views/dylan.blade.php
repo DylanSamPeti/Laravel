@@ -147,7 +147,7 @@
 		  <div class="container">
 		  	<div class="content">
 
-             <h1>About Dylan</h1>
+             <h1>About Dylans</h1>
 
              <h4>"Knowledge is experience"</h4>
              <br>
