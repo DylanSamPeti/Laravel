@@ -87,13 +87,13 @@
 	
 		</section> -->
 
-		<section id="secondary" class="work">
+<!-- 		<section id="secondary" class="work">
 			
 		  <div class="container">
 		  	<div class="content">
 				<h1>Work</h1>
 
-				<!-- <ul>
+				<ul>
 
 					<li>
 
@@ -125,7 +125,7 @@
 
 				    </li>
 				</ul>
- -->
+
 
   <h1>Coming Soon ...</h1>
 				
@@ -137,12 +137,13 @@
                 <img src="{{ asset('/images/img-three.jpg') }}">
                 <img src="{{ asset('/images/img-four.jpg') }}">
                 </div>
- -->
+
 			
          </div>
-		</section>
+		</section> 
+		 -->
 
-		<section id="tertiary" class="about">
+		<!-- <section id="tertiary" class="about">
 
 		  <div class="container">
 		  	<div class="content">
@@ -161,7 +162,7 @@
 
 
 
-<!--              	<div id="overlay"> -->
+
              		<div id="DP">
              			
              		<div id="profile-picture">Display Picture coming soon</div>
@@ -209,8 +210,8 @@
 
 
 		</section>
-
-		<section id="contact" class="contact">
+ -->
+		<!-- <section id="contact" class="contact">
 			<div class="container">
 		  	<div class="content">
 			<h1>Get in Touch</h1>
@@ -231,8 +232,8 @@
 
 		</div>
 	</div>
-		</section>
-		<footer>
+		</section> -->
+		<!-- <footer>
 			<div class="container">
 			<ul>
 				<li><a href="">Back to Top</a></li>
@@ -242,6 +243,6 @@
 			</div>
 		</footer>
 
-
+ -->
 	</body>
 </html>
