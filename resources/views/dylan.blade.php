@@ -62,7 +62,7 @@
 		  <div class="container">
 			<div class="content">
 				<div class="title">D &nbsp Y &nbsp L &nbsp A &nbsp N</div>
-				<div class="quote">an inspiring portfolio</div>
+				<div class="quote">Design + Photography  + Art </div>
 				<ul id="nav">
 				  <li><a href="about" data-scrollto="about">About</a></li>
 				  <li><a href="work" data-scrollto="work">Work</a></li>
