@@ -54,10 +54,10 @@ return [
 
 		'mysql' => [
 			'driver'    => 'mysql',
-			'host'      => env('DB_HOST', '127.0.0.1'),
-			'database'  => env('DB_DATABASE', 'laravel'),
-			'username'  => env('DB_USERNAME', 'root'),
-			'password'  => env('DB_PASSWORD', ''),
+			'host'      => env('DB_HOST', $_ENV['DB_HOST']),
+			'database'  => env('DB_DATABASE', $_ENV['DB_NAME']),
+			'username'  => env('DB_USERNAME', $_ENV['DB_USERNAME']),
+			'password'  => env('DB_PASSWORD', $_ENV['DB_PASSWORD']),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
