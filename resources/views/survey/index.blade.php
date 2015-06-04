@@ -67,7 +67,7 @@
         
 
                <div class="form-group">
-               	{!! Form::label('question-one', 'Do you have a registered drivers lisence?', ['class' => 'survey-label']) !!}
+               	{!! Form::label('1', 'Do you have a registered drivers lisence?', ['class' => 'survey-label']) !!}
       
                      <div class="checkbox">
                      {!! Form::checkbox('question-one[]', 'agree', false, ['class' => 'form-q-one']) !!}
@@ -84,7 +84,7 @@
                </div>
 
                 <div class="form-group">
-                 {!! Form::label('question-two', 'Do you text and drive?') !!}
+                 {!! Form::label('2', 'Do you text and drive?') !!}
       
                     <div class="checkbox">
                      {!! Form::checkbox('question-two[]', 'agree', false, ['class' => 'form-q-two']) !!}
@@ -93,7 +93,7 @@
                      </div>
                      
                      <div class="checkbox">
-                     {!! Form::checkbox('tquestion-two[]', 'disagree', false, ['class' => 'form-q-two']) !!}
+                     {!! Form::checkbox('question-two[]', 'disagree', false, ['class' => 'form-q-two']) !!}
                      {!! Form::label('two-no', 'no') !!}
                      
                      </div>
@@ -101,22 +101,22 @@
                </div>
 
                 <div class="form-group">
-                {!! Form::label('question-three', 'How far do you travel each day?') !!}
+                {!! Form::label('3', 'How far do you travel each day?') !!}
       
                      <div class="checkbox">
-                     {!! Form::checkbox('question-three[]', 'agree', false, ['class' => 'form-q-three']) !!}
+                     {!! Form::checkbox('question-three[]', 'option-one', false, ['class' => 'form-q-three']) !!}
                      {!! Form::label('three-yes-one', 'Between 0 - 10km') !!}
                      
                      </div>
                      
                      <div class="checkbox">
-                     {!! Form::checkbox('question-three[]', 'disagree', false, ['class' => 'form-q-three']) !!}
+                     {!! Form::checkbox('question-three[]', 'option-two', false, ['class' => 'form-q-three']) !!}
                      {!! Form::label('three-yes-one', 'Between 10 - 50km') !!}
                      
                      </div>
 
                       <div class="checkbox">
-                      {!! Form::checkbox('question-three[]', 'disagree', false, ['class' => 'form-q-three']) !!}
+                      {!! Form::checkbox('question-three[]', 'option-three', false, ['class' => 'form-q-three']) !!}
                       {!! Form::label('three-yes-three', 'Between 50 - 100km') !!}
                      
                      </div>
@@ -125,7 +125,7 @@
 
 
                 <div class="form-group">
-                 {!! Form::label('question-four', 'What kind of phone do you use?') !!}      
+                 {!! Form::label('4', 'What kind of phone do you use?') !!}      
                      <div class="checkbox">
                      {!! Form::checkbox('question-four[]', 'agree/disagree', false) !!}
                      {!! Form::label('four-yes', 'Android') !!}
@@ -141,7 +141,7 @@
                </div>
 
                <div class="form-group">
-                 {!! Form::label('question-four-b', 'What distracts you when driving?') !!}
+                 {!! Form::label('4-B', 'What distracts you when driving?') !!}
       
                      <div class="checkbox">
                      {!! Form::textarea('question-four-b', false, ['class' => 'form-q-nine']) !!}
@@ -158,16 +158,16 @@
      <div class="col-md-6">
 
                <div class="form-group">
-                 {!! Form::label('question-five', 'What model car do you have?') !!}
+                 {!! Form::label('5', 'What model car do you have?') !!}
                  <br>
                  <br>
-                 {!! Form::text('car-model'); !!}
+                 {!! Form::text('car-model', '', array('required' => 'required')); !!}
     
                </div>
 
 
                 <div class="form-group">
-                {!! Form::label('question-six', 'Roughly, how long do you have your phone on you each day? (Between 7am and 7pm)', ['class' => 'survey-label']) !!}
+                {!! Form::label('6', 'Roughly, how long do you have your phone on you each day? (Between 7am and 7pm)', ['class' => 'survey-label']) !!}
                     
                      <div class="checkbox">
                      {!! Form::checkbox('question-six[]', 'less-than-half', false, ['class' => 'form-q-six']) !!}
@@ -191,7 +191,7 @@
 
 
                <div class="form-group">
-                 {!! Form::label('question-seven', 'Do you find text/driving a dangerous behaivour?') !!}
+                 {!! Form::label('7', 'Do you find text/driving a dangerous behaivour?') !!}
       
                      <div class="checkbox">
                      {!! Form::checkbox('question-seven[]', 'agree', false, ['class' => 'form-q-seven']) !!}
@@ -208,7 +208,7 @@
                </div>
 
                <div class="form-group">
-                 {!! Form::label('question-eight', 'Do you remember what you thought about during your last commute?') !!}
+                 {!! Form::label('8', 'Do you remember what you thought about during your last commute?') !!}
       
                      <div class="checkbox">
                      {!! Form::checkbox('question-eight[]', 'agree', false, ['class' => 'form-q-eight']) !!}
@@ -217,7 +217,7 @@
                      </div>
                      
                      <div class="checkbox">
-                     {!! Form::checkbox('questioneight[]', 'disagree', false, ['class' => 'form-q-eight']) !!}
+                     {!! Form::checkbox('question-eight[]', 'disagree', false, ['class' => 'form-q-eight']) !!}
                      {!! Form::label('eight-no', 'no') !!}
                      
                      </div>
@@ -225,7 +225,7 @@
                </div>
 
                  <div class="form-group">
-                 {!! Form::label('question-eight', 'What do you have to say?') !!}
+                 {!! Form::label('9', 'What do you have to say?') !!}
       
                      <div class="checkbox">
                      {!! Form::textarea('question-nine', false, ['class' => 'form-q-nine']) !!}
