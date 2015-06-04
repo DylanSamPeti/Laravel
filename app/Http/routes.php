@@ -14,6 +14,9 @@
 Route::get('/', 'customController@index');
 
 Route::get('home', 'HomeController@index');
+Route::get('survey', ['as' => 'survey', 'uses' => 'surveyController@index']);
+
+Route::post('survey',  ['as' => 'survey_store', 'uses' => 'surveyController@store']);
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
