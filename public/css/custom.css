@@ -313,10 +313,16 @@ footer{
 .red{
 	color: red;
 }
+.btn-primary a,.btn-primary a:hover{
+	color: #fff;
+}
 
 .form-q-nine{
 	width: 100%;
 	border: 1px solid #ddd;
+}
+.front-page{
+	height: 100%;
 }
 
 footer ul{

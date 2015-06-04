@@ -18,7 +18,7 @@
 	</head>
 	<body>
 
-		  <div class="container">
+		  <div class="container front-page">
 			<div class="content">
 				<div class="title">D &nbsp Y &nbsp L &nbsp A &nbsp N</div>
 				<div class="quote">Design + Photography  + Art </div>
@@ -31,7 +31,7 @@
 				</ul>
            <br>
            <br>
-				<button class="btn btn-danger"><a href="/survey">Take Survey</a></button>
+				<button class="btn btn-primary"><a href="/survey">Take Survey</a></button>
             </div>
          </div>
 
