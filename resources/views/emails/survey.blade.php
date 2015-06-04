@@ -97,6 +97,17 @@ You received a message from AUT Students
 <?php } ?>
 
 
+<!-- QUESTION FOUR C-->
+<h2>Question Four C</h2>
+
+<?php if(isset($question_four_c)){ ?>
+<p>
+{{ $question_four_c }}
+</p>
+
+<?php } ?>
+
+
 
 <!-- QUESTION FIVE-->
 <h2>Question Five</h2>

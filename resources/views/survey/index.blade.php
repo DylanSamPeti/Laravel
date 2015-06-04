@@ -152,6 +152,18 @@
     
                </div>
 
+               <div class="form-group">
+                 {!! Form::label('4-C', 'On a scale of 1-10, how do you measure your stress whilst driving?') !!}
+      
+                     <div class="checkbox">
+                     {!! Form::text('question-four-c', false, ['class' => 'form-q-nine', 'required' => 'required']) !!}
+                
+                     
+                     </div>
+                    
+    
+               </div>
+
     </div>
 
 

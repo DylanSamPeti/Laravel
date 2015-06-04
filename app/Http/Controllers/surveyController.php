@@ -43,6 +43,7 @@ class surveyController extends Controller {
         	'question_three' => $request->get('question-three'),
         	'question_four' => $request->get('question-four'),
         	'question_four_b' => $request->get('question-four-b'),
+        	'question_four_c' => $request->get('question-four-c'),
         	'question_five' => $request->get('car-model'),
         	'question_six' => $request->get('question-six'),
         	'question_seven' => $request->get('question-seven'),
