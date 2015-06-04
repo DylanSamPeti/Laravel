@@ -23,11 +23,10 @@
 				<div class="title">D &nbsp Y &nbsp L &nbsp A &nbsp N</div>
 				<div class="quote">Design + Photography  + Art </div>
 				<ul id="nav">
-				  <li><a href="about" data-scrollto="about">About</a></li>
+<!-- 				  <li><a href="about" data-scrollto="about">About</a></li>
 				  <li><a href="work" data-scrollto="work">Work</a></li>
-			  <li><a href="">Process</a></li> 
-				  <li><a href="http://studio-dylan.tumblr.com" data-scrollto="no" target="_blank">Blog</a></li>
-				  <li><a href="" data-scrollto="contact">Contact</a></li>
+				  <li><a href="http://studio-dylan.tumblr.com" data-scrollto="no" target="_blank">Blog</a></li> -->
+<!-- 				  <li><a href="" data-scrollto="contact">Contact</a></li> -->
 				</ul>
            <br>
            <br>
