@@ -72,6 +72,13 @@ You received a message from AUT Students
 
 <?php } ?>
 
+<h2>Question Four</h2>
+
+<?php if(isset($question_four)){ ?>
+<p>
+{{ $question_four }}
+</p>
+
 <h2>Question Five</h2>
 
 <?php if(isset($question_five)){ ?>

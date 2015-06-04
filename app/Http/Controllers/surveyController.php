@@ -42,11 +42,13 @@ class surveyController extends Controller {
         	'question_two' => $request->get('question-two'),
         	'question_three' => $request->get('question-three'),
         	'question_four' => $request->get('question-four'),
+        	'question_four_b' => $request->get('question-four-b'),
         	'question_five' => $request->get('car-model'),
         	'question_six' => $request->get('question-six'),
         	'question_seven' => $request->get('question-seven'),
         	'question_eight' => $request->get('question-eight'),
         	'question_nine' => $request->get('question-nine'),
+
             'user_message' => $request->get('message')
         ), function($message)
     {

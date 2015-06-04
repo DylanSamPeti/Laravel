@@ -140,6 +140,18 @@
     
                </div>
 
+               <div class="form-group">
+                 {!! Form::label('question-four-b', 'What distracts you when driving?') !!}
+      
+                     <div class="checkbox">
+                     {!! Form::textarea('question-four-b', false, ['class' => 'form-q-nine']) !!}
+                
+                     
+                     </div>
+                    
+    
+               </div>
+
     </div>
 
 
