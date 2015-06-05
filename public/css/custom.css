@@ -12,10 +12,10 @@ body {
 				padding: 0;
 				width: 100%;
 				height: 100%;
-				color: #B0BEC5 !important;
+				color: #B0BEC5;
 				display: block;
-				font-weight: 100 !important;
-				font-family: 'Lato' !important;
+				font-weight: 100;
+				font-family: 'Lato';
 			}
 
 			.container{

@@ -16,7 +16,17 @@
 		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script> <!-- 16 KB -->
 
+<style type="text/css">
+  body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
 
+  }
+  p{
+    font-weight: 400;
+    color: #575353;
+  }
+</style>
 	</head>
 	<body> 
 
