@@ -69,12 +69,21 @@
     @endforeach
 </ul>
 
-     <div class="col-md-6">
+     
 
 
                {!! Form::open(array('route' => 'survey_store', 'class' => 'form')) !!}
 
-        
+    
+     <div class="col-md-12">
+     <div class="form-group">
+     {!! Form::label("0", "Your Name", ['class' => 'survey-name']) !!}
+     {!! Form::text('name') !!} 
+
+       </div>
+     </div>
+
+        <div class="col-md-6 survey-col">
 
                <div class="form-group">
                	{!! Form::label('1', 'Do you have a registered drivers lisence?', ['class' => 'survey-label']) !!}
@@ -177,7 +186,7 @@
     </div>
 
 
-     <div class="col-md-6">
+     <div class="col-md-6 survey-col">
 
                <div class="form-group">
                  {!! Form::label('5', 'What model car do you have?') !!}

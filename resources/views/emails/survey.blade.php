@@ -2,7 +2,7 @@ You received a message from AUT Students
 
 
 <p>
-{{ $user_message }}
+From {{ $name }}
 </p>
 
 

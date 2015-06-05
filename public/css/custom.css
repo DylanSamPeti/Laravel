@@ -302,7 +302,7 @@ footer{
  width: auto;
  font-weight: bold;
 }
-.form-group{
+.survey-col .form-group{
 	border-bottom: 1px solid #eee;
 	min-height: 150px;
 }
@@ -323,6 +323,9 @@ footer{
 }
 .front-page{
 	height: 100%;
+}
+.survey-name{
+	padding-right: 20px;
 }
 
 footer ul{

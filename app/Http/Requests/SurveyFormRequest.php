@@ -22,6 +22,7 @@ class SurveyFormRequest extends Request {
 	public function rules()
 	{
 		return [
+		    'name' => 'required',
 			'question-one' => 'required',
 			'question-two' => 'required',
 			'question-three' => 'required',

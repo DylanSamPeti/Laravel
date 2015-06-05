@@ -38,6 +38,7 @@ class surveyController extends Controller {
 
 		\Mail::send('emails.survey',
         array(
+            'name' => $request->get('name'),
         	'question_one' => $request->get('question-one'),
         	'question_two' => $request->get('question-two'),
         	'question_three' => $request->get('question-three'),
@@ -49,11 +50,11 @@ class surveyController extends Controller {
         	'question_seven' => $request->get('question-seven'),
         	'question_eight' => $request->get('question-eight'),
         	'question_nine' => $request->get('question-nine'),
-
             'user_message' => $request->get('message')
+
         ), function($message)
     {
-        $message->from('dylanautcity@gmail.com');
+        $message->from( 'dylanautcity@gmail.com' );
         $message->to('dylanautcity@gmail.com', 'Admin')->subject('New Survey Entry');
     });
 		return \Redirect::route('survey')->with('message', 'Awesome, Thank you!');
