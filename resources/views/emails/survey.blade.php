@@ -7,7 +7,7 @@ From {{ $name }}
 
 
 <!-- QUESTION ONE -->
-<h2>Question One</h2>
+<h2>Do you have a registered drivers lisence?</h2>
 
 <?php if(isset($question_one[0])){ ?>
 <p>
@@ -25,7 +25,7 @@ From {{ $name }}
 
 
 <!-- QUESTION TWO -->
-<h2>Question Two</h2>
+<h2>Do you text and drive?</h2>
 
 <?php if(isset($question_two[0])){ ?>
 <p>
@@ -43,7 +43,7 @@ From {{ $name }}
 
 
 <!-- QUESTION THREE -->
-<h2>Question Three</h2>
+<h2>How far do you travel each day?</h2>
 
 <?php if(isset($question_three[0])){ ?>
 <p>
@@ -68,7 +68,7 @@ From {{ $name }}
 
 
 <!-- QUESTION FOUR -->
-<h2>Question Four</h2>
+<h2>What kind of phone do you use?</h2>
 
 <?php if(isset($question_four[0])){ ?>
 <p>
@@ -87,7 +87,7 @@ From {{ $name }}
 
 
 <!-- QUESTION FOUR B-->
-<h2>Question Four B</h2>
+<h2>What distracts you when driving?</h2>
 
 <?php if(isset($question_four_b)){ ?>
 <p>
@@ -98,7 +98,7 @@ From {{ $name }}
 
 
 <!-- QUESTION FOUR C-->
-<h2>Question Four C</h2>
+<h2>On a scale of 1-10, how do you measure your stress whilst driving?</h2>
 
 <?php if(isset($question_four_c)){ ?>
 <p>
@@ -110,7 +110,7 @@ From {{ $name }}
 
 
 <!-- QUESTION FIVE-->
-<h2>Question Five</h2>
+<h2>What model car do you have? </h2>
 
 <?php if(isset($question_five)){ ?>
 <p>
@@ -123,7 +123,7 @@ From {{ $name }}
 
 
 <!-- QUESTION SIX -->
-<h2>Question Six</h2>
+<h2>Roughly, how long do you have your phone on you each day? (Between 7am and 7pm)</h2>
 
 <?php if(isset($question_six[0])){ ?>
 <p>
@@ -148,7 +148,7 @@ From {{ $name }}
 
 
 <!-- QUESTION SEVEN -->
-<h2>Question Seven</h2>
+<h2>Do you find text/driving a dangerous behaivour?</h2>
 
 <?php if(isset($question_seven[0])){ ?>
 <p>
@@ -165,7 +165,7 @@ From {{ $name }}
 
 
 <!-- QUESTION EIGHT -->
-<h2>Question Eight</h2>
+<h2>Do you remember what you thought about during your last commute?</h2>
 
 <?php if(isset($question_eight[0])){ ?>
 <p>
@@ -182,7 +182,7 @@ From {{ $name }}
 
 
 <!-- QUESTION FIVE-->
-<h2>Question Nine</h2>
+<h2>What do you have to say?</h2>
 
 <?php if(isset($question_nine)){ ?>
 <p>
