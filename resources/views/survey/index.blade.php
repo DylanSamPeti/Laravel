@@ -163,7 +163,7 @@
                  {!! Form::label('4-B', 'What distracts you when driving?') !!}
       
                      <div class="checkbox">
-                     {!! Form::textarea('question-four-b', false, ['class' => 'form-q-nine']) !!}
+                     {!! Form::textarea('question-four-b', false, ['class' => 'form-q-nine','required' => 'required']) !!}
                 
                      
                      </div>
