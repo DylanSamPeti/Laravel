@@ -60,7 +60,7 @@
 				<div class="title">Dylan</div>
 				<div class="quote">design + Photography + Art</div>
 				<ul id="nav">
-				  <li data-goto><a href="">About</a></li>
+				  <li><a data-scrollto="about" href="">About</a></li>
 <!-- 				  <li><a href="">Work</a></li> -->
 				  <li><a href="http://studio-dylan.tumblr.com/">Blog</a></li>
 				  <li><a href="/contact">Contact</a></li>
@@ -68,7 +68,6 @@
             </div>
          </div>
 		</main>
-
 
 
 		<section id="secondary">
@@ -126,7 +125,7 @@
 
 		<section id="tertiary" class="about">
 
-		  <div class="container">
+		  <div id="about" class="container">
 		  	<div class="content">
 
              <h1>About Dylan</h1>
