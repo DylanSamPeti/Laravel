@@ -54,6 +54,7 @@
       @if(Session::has('message'))
           <div class="alert alert-info">
               {{Session::get('message')}}
+              <button class="btn btn-dangerous"><a href="/survey/design">Take the design survey</a></button>
              </div>
           @endif
 </div>

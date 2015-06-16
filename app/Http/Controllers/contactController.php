@@ -2,11 +2,11 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\SurveyFormRequest;
+use App\Http\Requests\ContactFormRequest;
 
 use Illuminate\Http\Request;
 
-class surveyController extends Controller {
+class contactController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -15,12 +15,7 @@ class surveyController extends Controller {
 	 */
 	public function index()
 	{
-		return view('survey.index');
-	}
-
-	public function design()
-	{
-		return view('survey.design');
+		return view('contact.index');
 	}
 
 	/**
@@ -38,31 +33,21 @@ class surveyController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store(SurveyFormRequest $request)
+	public function store(ContactFormRequest $request)
 	{
 
 		\Mail::send('emails.survey',
         array(
             'name' => $request->get('name'),
-        	'question_one' => $request->get('question-one'),
-        	'question_two' => $request->get('question-two'),
-        	'question_three' => $request->get('question-three'),
-        	'question_four' => $request->get('question-four'),
-        	'question_four_b' => $request->get('question-four-b'),
-        	'question_four_c' => $request->get('question-four-c'),
-        	'question_five' => $request->get('car-model'),
-        	'question_six' => $request->get('question-six'),
-        	'question_seven' => $request->get('question-seven'),
-        	'question_eight' => $request->get('question-eight'),
-        	'question_nine' => $request->get('question-nine'),
-            'user_message' => $request->get('message')
+        	'email' => $request->get('email'),
+        	'message' => $request->get('message'),
 
         ), function($message)
     {
         $message->from( 'dylanautcity@gmail.com' );
         $message->to('dylanautcity@gmail.com', 'Admin')->subject('New Survey Entry');
     });
-		return \Redirect::route('survey')->with('message', 'Awesome, Thank you!');
+		return \Redirect::route('contact')->with('message', 'Awesome, Thank you!');
 
   
 	}

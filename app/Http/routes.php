@@ -12,11 +12,16 @@
 */
 
 Route::get('/', 'customController@index');
-
 Route::get('home', 'HomeController@index');
 Route::get('survey', ['as' => 'survey', 'uses' => 'surveyController@index']);
-
+Route::get('survey/design', ['as' => 'survey-design', 'uses' => 'surveyController@design']);
 Route::post('survey',  ['as' => 'survey_store', 'uses' => 'surveyController@store']);
+Route::post('survey-design',  ['as' => 'survey_store_design', 'uses' => 'surveyController@store']);
+
+Route::get('contact', ['as' => 'contact', 'uses' => 'contactController@index']);
+Route::post('contact',  ['as' => 'contact_store', 'uses' => 'contactController@store']);
+
+
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

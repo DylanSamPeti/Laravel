@@ -339,3 +339,10 @@ footer ul li a{
 	color: #eee;
 }
 
+.checkbox {
+	display: inline-block;
+}
+
+.checkbox input{
+	width: 100%;
+}
