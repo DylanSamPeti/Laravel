@@ -4,6 +4,8 @@
 
 
 		<link href="{{ asset('/css/custom.css') }}" rel="stylesheet">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="{{ asset('/js/navigation.js') }}"></script>
 		
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
@@ -57,8 +59,8 @@
 		<main id="main">
 		  <div class="container">
 			<div class="content">
-				<div class="title">Dylan</div>
-				<div class="quote">design + Photography + Art</div>
+				<div class="title">D &nbsp &nbspY &nbspL &nbsp&nbspA &nbsp&nbspN</div>
+				<div class="quote">Design + Photography + Art</div>
 				<ul id="nav">
 				  <li><a data-scrollto="about" href="">About</a></li>
 <!-- 				  <li><a href="">Work</a></li> -->
@@ -70,58 +72,6 @@
 		</main>
 
 
-		<section id="secondary">
-			
-		  <div class="container">
-		  	<div class="content">
-				<h1>Work</h1>
-
-				<ul>
-
-					<li>
-
-				       <article>
-
-				       	<h3>The Blue</h3>
-    
-				       </article>
-
-				    </li>
-
-				    <li>
-
-				       <article>
-
-				       	<h3>The Red</h3>
-    
-				       </article>
-
-				    </li>
-
-				    <li>
-
-				       <article>
-                        <div id="overlay"></div>
-				       	<h3>Writings</h3>
-     
-				       </article>
-
-				    </li>
-				</ul>
-
-				
-            </div>
-		 <!--  	<div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-width="1200"
-     data-height="400">
-                <img src="{{ asset('/images/img-one.jpg') }}">
-                <img src="{{ asset('/images/img-two.jpg') }}">
-                <img src="{{ asset('/images/img-three.jpg') }}">
-                <img src="{{ asset('/images/img-four.jpg') }}">
-                </div>
- -->
-			
-         </div>
-		</section>
 
 		<section id="tertiary" class="about">
 
@@ -185,9 +135,9 @@
 		<section id="contact">
 			<div class="container">
 		  	<div class="content">
-			<h1>Get in touch</h1>
+			<h1>Get in Touch</h1>
 
-			<button id="front-page-btn" class="btn btn-primary">Get in Touch</button>
+			<button id="front-page-btn" class="btn btn-primary"><a href="/contact">contact</a></button>
 			
 
 
@@ -197,9 +147,9 @@
 		<footer>
 			<div class="container">
 			<ul>
-				<li><a href="">Back to Top</a></li>
-				<li><a href="">Contact</a></li>
-				<li><a href="">Contact</a></li>
+				<li><a data-scrollto="main" href="">Back to Top</a></li>
+				<li><a href="/contact">Contact</a></li>
+
 			</ul>
 			</div>
 		</footer>

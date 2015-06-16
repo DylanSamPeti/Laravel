@@ -107,8 +107,21 @@
 
      </div>    
       </div>    
+      </div>
+      </div>
+      </div>
+      </div>
 	
+<footer>
+      <div class="container">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="http://studio-dylan.tumblr.com/">Blog</a></li>
 
+      </ul>
+      </div>
+    </footer>
 
 	</body>
 </html>
